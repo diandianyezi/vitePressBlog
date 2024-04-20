@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Yezi blog",
   description: "A VitePress Site",
-  // base: "/vitePressBlog/",
+  base: "/vitePressBlog/",
   srcDir: './src',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
